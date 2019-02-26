@@ -1,0 +1,28 @@
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline !important;
+}
+
+table.table td {
+  padding-top: 4px;
+  padding-bottom: 2px;
+}
+
+table.table tr:hover td {
+  background-color: #eee;
+}
+
+span.status_1,
+span.status_2,
+span.status_3,
+span.status_4,
+span.status_5,
+span.status_6,
+span.status_7 {
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+}

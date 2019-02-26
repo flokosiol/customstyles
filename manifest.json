@@ -1,0 +1,21 @@
+{
+  "name": "Custom Styles",
+  "description": "Inject custom CSS stuff",
+  "version": "1.0",
+  "content_scripts": [
+    {
+    "css": ["css/trello.css"],
+    // "js": ["js/content.js"],
+    "matches": ["https://trello.com/*"]
+    },
+    {
+    "css": ["css/synfoni.css"],
+    "matches": ["https://*.synfoni.de/*"]
+    },
+    {
+    "css": ["css/drupal.css"],
+    "matches": ["https://*.de/admin/*", "http://*.de/admin/*", "https://*.com/admin/*", "http://*.com/admin/*"]
+    }
+  ],
+  "manifest_version": 2
+}

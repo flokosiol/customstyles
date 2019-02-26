@@ -1,0 +1,29 @@
+.list-card.is-covered .list-card-cover {
+  height: 20px !important;
+  opacity: .3;
+}
+
+.list-card-title {
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+
+.list-card-details .badges {
+  background-color: #ddd;
+  padding-left: 6px;
+  margin-left: -8px;
+  margin-bottom: 5px;
+}
+
+.badges .badge {
+  padding-top: 6px;
+}
+
+.list-card-labels .card-label.mod-card-front {
+  font-size: 9px;
+  height: 16px;
+  line-height: 16px;
+  max-width: none;
+  width: auto;
+  padding: 0 5px;
+}
