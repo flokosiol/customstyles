@@ -44,13 +44,16 @@ span.status_7 {
 
 /* TICKET LIST */
 
-tr.tickettype_1 td:nth-child(4),
+/*tr.tickettype_1 td:nth-child(4),
 tr.tickettype_2 td:nth-child(4),
 tr.tickettype_3 td:nth-child(4) {
   min-width: 95px;
   padding-left: 5px;
-}
+}*/
 
+tr.tickettype_2 td:nth-child(4) {
+  color: red;
+}
 
 .prio {
   text-align: center;

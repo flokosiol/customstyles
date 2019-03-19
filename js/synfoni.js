@@ -31,23 +31,23 @@ if (cells && cells.length) {
   });
 }
 
-const ideas = document.querySelectorAll('.table > tbody > tr.tickettype_1');
-if (ideas && ideas.length) {
-  ideas.forEach(function(idea) {
-    idea.querySelector('td:nth-child(4)').insertAdjacentHTML("afterbegin", '💡 ');
-  });
-}
+// const ideas = document.querySelectorAll('.table > tbody > tr.tickettype_1');
+// if (ideas && ideas.length) {
+//   ideas.forEach(function(idea) {
+//     idea.querySelector('td:nth-child(4)').insertAdjacentHTML("afterbegin", '💡 ');
+//   });
+// }
 
-const errors = document.querySelectorAll('.table > tbody > tr.tickettype_2');
-if (errors && errors.length) {
-  errors.forEach(function(error) {
-    error.querySelector('td:nth-child(4)').insertAdjacentHTML("afterbegin", '🐛 ');
-  });
-}
+// const errors = document.querySelectorAll('.table > tbody > tr.tickettype_2');
+// if (errors && errors.length) {
+//   errors.forEach(function(error) {
+//     error.querySelector('td:nth-child(4)').insertAdjacentHTML("afterbegin", '🐛 ');
+//   });
+// }
 
-const stories = document.querySelectorAll('.table > tbody > tr.tickettype_3');
-if (stories && stories.length) {
-  stories.forEach(function(story) {
-    story.querySelector('td:nth-child(4)').insertAdjacentHTML("afterbegin", '📖 ');
-  });
-}
+// const stories = document.querySelectorAll('.table > tbody > tr.tickettype_3');
+// if (stories && stories.length) {
+//   stories.forEach(function(story) {
+//     story.querySelector('td:nth-child(4)').insertAdjacentHTML("afterbegin", '📖 ');
+//   });
+// }
