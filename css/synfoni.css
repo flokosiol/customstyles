@@ -7,6 +7,13 @@ a:focus {
   text-decoration: underline !important;
 }
 
+a.button:hover,
+.action_buttons a:hover,
+#navi-main li a:hover {
+  text-decoration: none !important;
+}
+
+
 table.table td {
   padding-top: 4px;
   padding-bottom: 2px;
@@ -27,6 +34,13 @@ span.status_7 {
   padding-bottom: 2px !important;
 }
 
+.accordion_view.accordion .right .button {
+  display: none;
+}
+
+.accordion_view.accordion:hover .right .button {
+  display: block;
+}
 
 .comments .comment-empty {
   background: white;
