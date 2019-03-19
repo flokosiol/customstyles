@@ -50,6 +50,14 @@ span.status_7 {
   padding-top: .5em;
 }
 
+.comment.me:not(.comment-empty) {
+  border-left: 2px solid #00A1D8;
+}
+
+.comment.me:not(.comment-empty) .author{
+  color: #00A1D8;
+}
+
 /*.comment .changes {
   background-color: white;
   border: 1px solid #eee;

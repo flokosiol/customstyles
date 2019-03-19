@@ -5,11 +5,11 @@
   "content_scripts": [
     {
     "css": ["css/trello.css"],
-    // "js": ["js/content.js"],
     "matches": ["https://trello.com/*"]
     },
     {
     "css": ["css/synfoni.css"],
+    "js": ["js/synfoni.js"],
     "matches": ["https://*.synfoni.de/*"]
     },
     {
