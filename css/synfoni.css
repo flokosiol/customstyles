@@ -85,11 +85,15 @@ span.status_7 {
   padding-top: .5em;
 }
 
-.comment.me:not(.comment-empty) {
-  border-left: 2px solid #00A1D8;
+.comment:not(.comment-empty) {
+  border-left: 2px solid #ccc;
 }
 
-.comment.me:not(.comment-empty) .author{
+.comment.me:not(.comment-empty) {
+  border-left-color: #00A1D8;
+}
+
+.comment.me:not(.comment-empty) .author {
   color: #00A1D8;
 }
 
