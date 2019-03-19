@@ -42,6 +42,27 @@ span.status_7 {
   display: block;
 }
 
+/* TICKET PRIO */
+.prio {
+  text-align: center;
+}
+
+.prio strong {
+  border: 1px solid #666;
+  padding: 0 5px;
+}
+
+.prio-hot strong {
+  border-color: red;
+  color: red;
+}
+.prio-medium strong {
+  border-color: #00A1D8;
+  color: #00A1D8;
+}
+
+/* COMMENTS */
+
 .comments .comment-empty {
   background: white;
   border: 1px solid #eee;
@@ -76,3 +97,41 @@ span.status_7 {
   background-color: white;
   border: 1px solid #eee;
 }*/
+
+/* CHECKBOXES */
+
+#notify_all label.checkbox {
+  line-height: 24px;
+  cursor: pointer;
+}
+
+#notify_all label.checkbox:hover {
+  color: #00A1D8;
+}
+
+#notify_all label.checkbox input.checkbox {
+  top: 7px;
+}
+
+#notify_all label.checkbox select {
+  margin-top: 10px !important;
+}
+
+/* UPLOAD */
+
+#flash_upload {
+  padding-bottom: 30px;
+}
+
+/* COMMENT BUTTON */
+
+.right .button.green {
+  padding: 10px 20px 13px;
+  height: auto;
+  background: #4ba429;
+  font-size: 14px;
+}
+
+.right .button.green:hover {
+  background: #299200;
+}
