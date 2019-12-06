@@ -31,6 +31,17 @@ if (cells && cells.length) {
   });
 }
 
+const projectOverview = document.querySelector('.header_project_overview a.header_item');
+if (projectOverview) {
+  projectOverview.setAttribute('accesskey', 'h');
+}
+
+const actionButtonNew = document.querySelector('.action_buttons > a');
+if (actionButtonNew) {
+  actionButtonNew.setAttribute('accesskey', 'n');
+}
+
+
 // const ideas = document.querySelectorAll('.table > tbody > tr.tickettype_1');
 // if (ideas && ideas.length) {
 //   ideas.forEach(function(idea) {
