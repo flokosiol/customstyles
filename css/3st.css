@@ -1,0 +1,36 @@
+/*@font-face {
+  font-family: 'Radikal';
+  src: url("/Users/user/florian/Sites/www/3st-intranet-kirby/public/assets/css/fonts/RadikalLight.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Radikal';
+  src: url("/Users/user/florian/Sites/www/3st-intranet-kirby/public/assets/css/fonts/Radikal.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Radikal';
+  src: url("/Users/user/florian/Sites/www/3st-intranet-kirby/public/assets/css/fonts/RadikalMedium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Radikal';
+  src: url("/Users/user/florian/Sites/www/3st-intranet-kirby/public/assets/css/fonts/RadikalBold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal; }
+
+* {
+  font-family: 'Radikal' !important;
+  font-weight: 500 !important;
+}
+
+* .dd-blog_teaser-text {
+  font-weight: 400 !important;
+}
+
+.page-header {
+  font-size: 16px !important;
+}*/
