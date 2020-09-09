@@ -16,10 +16,10 @@
     "js": ["js/synfoni.js"],
     "matches": ["https://*.synfoni.de/*"]
     },
-    {
-    "css": ["css/diro.css"],
-    "matches": ["http://*.3st-dev.de/*"]
-    },
+    // {
+    // "css": ["css/diro.css"],
+    // "matches": ["http://*.3st-dev.de/*"]
+    // },
     {
     "css": ["css/drupal.css"],
     "matches": ["https://*.de/admin/*", "http://*.de/admin/*", "https://*.com/admin/*", "http://*.com/admin/*"]
