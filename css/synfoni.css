@@ -7,6 +7,13 @@ a:focus {
   text-decoration: underline !important;
 }
 
+a.button:hover,
+.action_buttons a:hover,
+#navi-main li a:hover {
+  text-decoration: none !important;
+}
+
+
 table.table td {
   padding-top: 4px;
   padding-bottom: 2px;
@@ -27,6 +34,46 @@ span.status_7 {
   padding-bottom: 2px !important;
 }
 
+.accordion_view.accordion .right .button {
+  display: none;
+}
+
+.accordion_view.accordion:hover .right .button {
+  display: block;
+}
+
+/* TICKET LIST */
+
+/*tr.tickettype_1 td:nth-child(4),
+tr.tickettype_2 td:nth-child(4),
+tr.tickettype_3 td:nth-child(4) {
+  min-width: 95px;
+  padding-left: 5px;
+}*/
+
+tr.tickettype_2 td:nth-child(4) {
+  color: red;
+}
+
+.prio {
+  text-align: center;
+}
+
+.prio strong {
+  border: 1px solid #666;
+  padding: 0 5px;
+}
+
+.prio-hot strong {
+  border-color: red;
+  color: red;
+}
+.prio-medium strong {
+  border-color: #00A1D8;
+  color: #00A1D8;
+}
+
+/* COMMENTS */
 
 .comments .comment-empty {
   background: white;
@@ -50,7 +97,57 @@ span.status_7 {
   padding-top: .5em;
 }
 
+.comment:not(.comment-empty) {
+  border-left: 2px solid #ccc;
+}
+
+.comment.me:not(.comment-empty) {
+  border-left-color: #00A1D8;
+}
+
+.comment.me:not(.comment-empty) .author {
+  color: #00A1D8;
+}
+
 /*.comment .changes {
   background-color: white;
   border: 1px solid #eee;
 }*/
+
+/* CHECKBOXES */
+
+#notify_all label.checkbox {
+  line-height: 24px;
+  cursor: pointer;
+}
+
+#notify_all label.checkbox:hover {
+  color: #00A1D8;
+}
+
+#notify_all label.checkbox input.checkbox {
+  top: 7px;
+}
+
+#notify_all label.checkbox select {
+  margin-top: 10px !important;
+}
+
+/* UPLOAD */
+
+#flash_upload {
+  padding-bottom: 30px;
+}
+
+/* COMMENT BUTTON */
+
+.right .button.green {
+  padding: 10px 20px 13px;
+  height: auto;
+  background: #4ba429;
+  font-size: 14px;
+}
+
+.right .button.green:hover {
+  background: #299200;
+}

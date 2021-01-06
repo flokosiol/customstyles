@@ -1,0 +1,57 @@
+.text-image {
+  position: relative;
+}
+
+.text-image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  opacity: .1;
+  background-color: red;
+}
+
+.text-image.section--padding-small::before,
+.text-image.section--padding::before {
+  background-color: green;
+}
+
+.text-image.section--padding-top::before,
+.text-image.section--padding-bottom::before,
+.text-image.section--padding-top-small::before,
+.text-image.section--padding-bottom-small::before {
+  background-color: orange;
+}
+
+.text-image::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 5px;
+  background-color: red;
+}
+
+.text-image.section--padding-small::after,
+.text-image.section--padding::after {
+  background-color: green;
+}
+
+.text-image.section--padding-top::after,
+.text-image.section--padding-bottom::after,
+.text-image.section--padding-top-small::after,
+.text-image.section--padding-bottom-small::after {
+  background-color: orange;
+}
+
+.text-image.text-image--alert::before,
+.text-image.text-image--alert::after,
+.text-image.text-image--stage::before,
+.text-image.text-image--stage::after {
+  display: none;
+}
