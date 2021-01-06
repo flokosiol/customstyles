@@ -13,3 +13,8 @@
   border-color: black;
   text-decoration: none;
 }
+
+.issues-list .flo {
+  color: #00A1D8 !important;
+  font-weight: bold;
+}
