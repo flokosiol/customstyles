@@ -14,7 +14,12 @@
   text-decoration: none;
 }
 
-.issues-list .flo {
-  color: #00A1D8 !important;
-  font-weight: bold;
+.issue.flo {
+  border-left: 4px solid #00A1D8;
+  padding-left: 12px;
+  /*background-color: #f6f6f6;*/
+}
+
+.issue.flo .issue-title-text a{
+  color: #00A1D8;
 }

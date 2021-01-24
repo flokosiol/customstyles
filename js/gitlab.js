@@ -2,8 +2,8 @@ const authorLinks = document.querySelectorAll('.issues-list .issue .author_link[
 
 if (authorLinks && authorLinks.length > 0) {
   authorLinks.forEach(
-    function(currentValue, currentIndex, listObj) {
-      listObj[currentIndex].classList.add('flo');
+    function(element) {
+      element.closest('.issue').classList.add('flo');
     }
   );
 }
