@@ -15,11 +15,11 @@
 }
 
 .issue.flo {
-  border-left: 4px solid #00A1D8;
+  border-left: 4px solid #00A1D8 !important;
   padding-left: 12px;
   /*background-color: #f6f6f6;*/
 }
 
-.issue.flo .issue-title-text a{
+.issue.flo .issue-title-text a {
   color: #00A1D8;
 }
