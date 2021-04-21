@@ -1,0 +1,23 @@
+.hero__meta,
+.hero__title,
+.hero__content {
+  position: relative;
+}
+
+.hero__meta::after,
+.hero__title::after,
+.hero__content::after {
+  content: '✔︎';
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: -30px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: green;
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}

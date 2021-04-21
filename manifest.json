@@ -28,6 +28,10 @@
     "css": ["css/gitlab.css"],
     "js": ["js/gitlab.js"],
     "matches": ["https://gitlab.3st-dev.de/*"]
+    },
+    {
+    "css": ["css/versatel.css"],
+    "matches": ["https://www.1und1.net/*", "http://wwwvtprodvm01fl.versatel.local/*", "http://wwwvtdevvm01hw.versatel.local/*"]
     }
   ],
   "manifest_version": 2
