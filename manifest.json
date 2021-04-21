@@ -4,6 +4,10 @@
   "version": "1.0",
   "content_scripts": [
     {
+    "css": ["css/local.css"],
+    "matches": ["http://*.local/*"]
+    },
+    {
     "css": ["css/trello.css"],
     "matches": ["https://trello.com/*"]
     },
