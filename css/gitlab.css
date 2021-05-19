@@ -15,11 +15,26 @@
 }
 
 .issue.flo {
-  border-left: 4px solid #00A1D8 !important;
+  border-left: 3px solid #00A1D8 !important;
   padding-left: 12px;
-  /*background-color: #f6f6f6;*/
+  background-color: #f9f9f9;
+}
+
+.issue .issue-title-text a {
+  color: #666;
 }
 
 .issue.flo .issue-title-text a {
   color: #00A1D8;
+}
+
+.issuable-list li.issue .issuable-milestone,
+.issuable-list li.issue .issuable-info,
+.issuable-list li.issue .task-status,
+.issuable-list li.issue .issuable-updated-at {
+  color: #bbb;
+}
+
+.issuable-list li.issue .issuable-info .issuable-reference {
+  color: #666;
 }
